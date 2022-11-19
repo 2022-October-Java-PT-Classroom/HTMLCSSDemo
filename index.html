@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My first html document</title>
+</head>
+<body>
+    <!--  Everything inside of the body tag contains the content that you see when you navigate to a website  -->
+    <div class="container">
+        <header>
+          <!--  Headings  -->
+          <h1 id="appTitle">My Cool Blog</h1>
+        
+          <!-- Navigation -->
+          <nav>
+            <ul>
+              <li>
+                <!-- anchor tags are how you add links to your pages. Links are an important part of the internet because they link one location to another location. Thus why we use them for navigation -->
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+            <!-- Article tags are a good 'block level element' that allow you to group content and keep it organized -->
+            <article>
+              <h2>Article Title</h2>
+              <div class="authorContainer">
+                <!-- Images are a huge part of the internet. Here's how we use them -->
+                <img src="https://www.shareicon.net/data/128x128/2015/10/03/650430_users_512x512.png" alt="Author Image">
+                <h3>Author</h3>
+              </div>
+
+              <h4>Month 01, 2017</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque ex a dignissimos necessitatibus. Reprehenderit nobis quae hic tempora voluptas, dolorum quidem expedita error, non cum quia accusamus recusandae rerum?</p>
+              <!-- Lists -->
+              <ol>
+                <h5>My favorite programming languages</h5>
+                <li>Java</li>
+                <li>Javascript</li>
+                <li>CSS</li>
+                <li>HTML</li>
+                <li>Groovy</li>
+              </ol>
+              <ul>
+                <h5>From a Galaxy Far Far Away...</h5>
+                <li>Luke</li>
+                <li>Han</li>
+                <li>Leia</li>
+                <li>Chewbacca</li>
+                <li>Jar Jar</li>
+              </ul>
+            </article>
+          <!-- Divs and Spans (We'll get here in a bit) -->
+          <div id="box">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+          </div>
+        </main>
+
+        <footer>
+          <h6>Copyright 2017.</h6>
+        </footer>
+
+    </div>
+</body>
+</html>

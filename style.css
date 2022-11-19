@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:400,700');
+
+* {
+    /* include the padding and border in an element's total width and height */
+    /* Set up a font family */
+    /* Set page margin to 0 */
+    /* Set page padding to 0 */
+}
+
+html {
+    /* Set font size */
+}
+
+body {
+    /* Set backgroud color */
+}
+
+.container {
+    /* Set background color of container */
+    /* Set a border radius for the container */
+    /* Set margin for top and bottom(25px) and left and right(auto), ("auto" allows the browser to calculate the margin) */
+    /* Set container width to 70% */
+}
+
+ul,
+ol {
+    /* Remove any automatic styling from lists */
+}
+
+header {
+    /* Center header elements vertically */
+    /* Set header background color */
+    /* Border radius for top left and right(12px) and bottom(0) */
+    /* Set text color */
+    /* Give header the properties of a flexbox */
+    /* Put space between the elements */
+    /* Set margin for top and bottom(0) and left and right(auto) */
+    /* Set margin for top and bottom(20px) and left and right(auto) */
+}
+
+header h1 {
+    /* Set left padding of 20px */
+}
+
+header nav {
+    /* Set right padding of 20px */
+}
+
+header nav ul {
+    /* Set up for flexbox properties */
+}
+
+header nav ul li {
+    /* Set right padding of 10px */
+}
+
+header nav ul li:last-child {
+    /* padding-right: 0; */
+}
+
+header nav ul li a {
+    /* Set a border radius of 3px */
+    /* Set text color */
+    /* Set padding of 3px */
+    /* Remove text decoration */
+}
+
+header nav ul li a:hover {
+    /* Change background color */
+}
+
+article {
+    /* Set padding of 25px for all sides */
+}
+
+h2 {
+    /* Give h2 a 1px underline */
+}
+
+div.authorContainer {
+    /* Center elements virtically */
+    /* Set display to flex (in a flexbox, the align-items property will apply "align-self" to all elements affected) */
+    /* Set margin of 10px for all sides */
+}
+
+div.authorContainer * {
+    /* Set margin of 10px for left side */
+}
+
+div.authorContainer img {
+    /* Set width of 50px */
+    /* Set height of 50px */
+}
+
+h4 {
+    /* Set text color */
+    /* Set font size to 80% */
+    /* Align text to the right side */
+}
+
+article p {
+    /* Set background color */
+    /* Set font size to 90% */
+    /* Set top and bottom margin(15px), left and right margin(0) */
+    /* Set padding of 10px for all sides */
+}
+
+article ul,
+article ol {
+    /* Set top and bottom margin(40px), left and right margin(20px) */
+}
+
+article ul *,
+article ol * {
+    /* Set font size to 20px */
+}
+
+article h5 {
+    /* Bolded text */
+}
+
+footer {
+    /* Change background color */
+    /* Border radius (0 0 12px 12px) */
+    /* Change font color */
+    /* Set display to flex */
+    /* Set font size to 150% */
+    /* Center elements horizontally */
+    /* Padding of 50px on all sides */
+}
+
+#box {
+    /* Center elements virtically */
+    /* Change background color */
+    /* Set a 5px solid border */
+    /* Border radius of 10px */
+    /* Set display to flex */
+    /* Set height to 200px */
+    /* Put space around each element */
+    /* Set margin (top(0) r&l(auto) bottom(60px))  */
+    /* Set width to 80% */
+}
+
+.circle {
+    /* Change background color */
+    /* Set border radius of 50% */
+    /* Set display to block (block takes up the full width available, meaning it stretches as far left and right as possible) */
+    /* Set height to 20px */
+    /* Set width to 20px */
+}
+
+/* JS styles */
+#changeContainer {
+    /* Set display to flex (sets how a flex item will grow or shrink to fit the space available in its flex container) */
+}
+
+#changeTitle {
+    /* Set background color */
+    /* Set border to none */
+    /* Set border radius (3px 0 0 3px) */
+    /* Set font size to 102% */
+    /* Set padding of 2px on all sides */
+}
+
+#changeButton {
+    /* Set background color */
+    /* Set border to none */
+    /* Set border radius (0 3px 3px 0) */
+    /* Set font color */
+    /* Set font size */
+    /* Set padding (5px 10px) */
+}
